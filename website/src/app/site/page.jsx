@@ -1,7 +1,7 @@
 import React from 'react'
 
 async function getPosts() {
-    const response = await fetch('http://localhost:3000/api/posts', { method: 'GET', cache: 'no-cache' })
+    const response = await fetch(`${process.env.WEBSITE_URL}/api/posts`, { method: 'GET', cache: 'no-cache' })
     return response.json()
 }
 
