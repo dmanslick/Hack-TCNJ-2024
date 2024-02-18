@@ -1,0 +1,80 @@
+*{
+    font-family: "Shadows Into Light", cursive;
+    background: black;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: #ededed;
+}
+
+.navbar  a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--primary);
+}
+
+.aparagraph{
+    width: 47%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 5%;
+    text-align: center;
+    color: #fff;
+    margin-top: 2%;
+    float: left;
+    padding-top: 50px;
+}
+
+.Logos{
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+.Logos img{
+    width: 100%;
+}
+
+h1{
+    font-size: x-large;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.About{
+    font-size: 65px;
+    color: #ededed;
+    margin-left: 39%;
+    margin-top: 10%;
+}
+.About h1{
+    font-size: 65px;
+}
